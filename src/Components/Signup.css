@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.bgim{
+    width: 100%;
+    height: 42vw;
+    position: relative;
+    top: 0.2vw;
+}
+.siform{
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    border-radius: 10px;
+    background-color: black;
+    z-index: 2;
+    padding: 1.8vw;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+.sititle{
+    color: white;
+    font-size: 2vw;
+    opacity: 1;
+    font-weight: 600;
+    text-align: left;
+    z-index: 3;
+}
+.in{
+    width: 100%;
+    height: 2.3vw;
+    border-radius: 50px;
+    padding: 0.5vw;
+    box-sizing: border-box;
+    opacity: 1;
+    outline: none;
+    border: 0;
+    margin: 1.5vw 0;
+    font-size: 1.3vw;
+    color: black;
+    z-index: 3;
+}
+.siformdets{
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    border-radius: 10px;
+    background-color: transparent;
+    z-index: 2;
+    padding: 1.8vw;
+    box-sizing: border-box;
+}
+.sibut{
+    width: 100%;
+    height: 2.8vw;
+    border-radius: 60px;
+    border: 0;
+    background-color: rgba(3,169,245,255);
+    color: white;
+    font-weight: 600;
+    margin-top:2.5vw ;
+    cursor: pointer;
+}
+.fre{
+    width: 100%;
+    color: red;
+    font-weight: 800;
+    text-align: left;
+    font-size: 1.1vw;
+}

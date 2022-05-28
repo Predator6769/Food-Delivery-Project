@@ -1,0 +1,62 @@
+.spls{
+    width: 100%;
+    /* height: 50vh; */
+    height: 25vw;
+    background-color: rgba(23,26,41,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/* .tgd1{
+    width: 18vw;
+    background-color:rgba(23,26,41,255) ;
+    border: 0;
+    cursor: pointer;
+    margin-right: 3vw;
+} */
+.tgd1:hover .splimg{
+    transform: scale(1.05);
+    transition: transform 0.4s;
+}
+.splmain{
+    width: 84%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+.splimg{
+    width:18vw ;
+    /* height:38vh; */
+    height: 90%;
+}
+.left1{
+    width: 3.3vw;
+    height: 3.5vw;
+    border-radius: 100%;
+    font-size: 1.8vw;
+    text-align: center;
+    position: absolute;
+    left: 6vw;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.right1{
+    width: 3.3vw;
+    height: 3.5vw;
+    border-radius: 100%;
+    font-size: 1.8vw;
+    text-align: center;
+    position: absolute;
+    right: 8vw;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.left1b{
+    display: none;
+}
+.right1b{
+    display: none;
+}

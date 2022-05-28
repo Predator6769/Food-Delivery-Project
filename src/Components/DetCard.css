@@ -1,0 +1,60 @@
+.detc{
+    width: 20%;
+    height: 20vw;
+    background-color: white;
+    position: relative;
+    padding: 1vw;
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 18px #888888;
+}
+.cardimg{
+    /* width: 10vw;
+    height: 20vh; */
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    margin: 1vw 0;
+}
+.num{
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.3vw;
+    position: absolute;
+    top: -1.2vw;
+    /* top: -10%; */
+    left: 45%;
+    box-shadow: 1px 3px 3px black;
+}
+.mt{
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+.sect{
+    font-size: 1.5vw;
+    color: #888888;
+}
+@media only screen and (max-width:768px){
+    .num{
+        font-size: 2vw;
+    }
+    .mt{
+        font-size: 2.1vw;
+    }
+    .sect{
+        font-size: 1.8vw;
+    }
+    .detc{
+        width: 25vw;
+    }
+  
+}

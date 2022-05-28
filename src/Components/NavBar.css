@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Lobster&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+}
+.mlogo{
+    width: 6%;
+    position: absolute;
+    left: 1vw;
+    top: 0vw;
+    /* background-color: transparent; */
+}
+.mainnav{
+    position: relative;
+}
+.mbg{
+    width: 100%;
+    height: 80vh;
+    /* filter: blur(1.5px); */
+}
+.mtitle{
+    position: absolute;
+    left: 7vw;
+    top: 0.6vw;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-size: 2vw;
+    font-family: 'Lobster', cursive;
+}
+.navmenu{
+    position: absolute;
+    top: 0.7vw;
+    right: 2vw;
+    
+}
+.navbuts{
+    position: relative;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5vw;
+    margin-right: 2vw;
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+    color: white;
+    background-color: transparent;
+    border: 0;
+}
+.navbuts:after{
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navbuts:hover:after{
+    width: 100%;
+}
+.navbuts:hover{
+    color:azure;
+}
+.sbi{
+    width: 50%;
+}
+.sb{
+    width: 3.5vw;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+.searchinp{
+    width: 50vw;
+    height: 3vw;
+    border-radius:25px ;
+    font-size: 1.5vw;
+    padding: 0 0.8vw;
+    border: 0;
+}
+.ser{
+    position: relative;
+    margin-top: 1.5vw;
+}
+.sb{
+    position: absolute;
+    right: 4vw;
+    top: 0.8vw;
+}
+.cap{
+    font-size: 4vw;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.search{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.sdets{
+    color: white;
+    /* position: absolute; */
+    text-align: center;
+    font-size: 1.8vw;
+    /* top: 1vw; */
+    /* left: 35%;  */
+    margin-top: 1vw;
+    text-shadow: 2px 2px black;
+}
+.sdets span{
+    font-weight: 600;
+    margin-left: 1vw;
+}
+.stt{
+    font-size: 3vw;
+    margin: 3vw 0;
+    font-weight: lighter;
+}
+.rtg{
+    width: 2vw;
+    border-bottom: 5px solid orangered;
+}
+.fds{
+    width: 110%;
+    position: relative;
+    top: 0.5vw;
+}
+.atcim{
+    width: 2vw;
+    position: relative;
+    top: 0.5vw;
+}
+.atcq{
+    width: 1.5vw;
+    height: 1.5vw;
+    font-size: 1.2vw;
+    border-radius: 50%;
+    background-color: rgb(237, 90, 90);
+    position: absolute;
+    top: 0;
+    right: -0.7vw;
+}
+.tgf{
+    width: 100%;
+    height: 9vh;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.6;
+}
+.yr{
+    background-color: transparent;
+    width: 3.5vw;
+}
+.ham{
+    background-color: transparent;
+    border: 0;
+    display: none;
+    z-index: 10;
+}
+.navbuts2{
+    position: relative;
+    font-family: 'Lobster', cursive;
+    font-size: 5vw;
+    margin-right: 2vw;
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+    color: white;
+    margin: 1vw 0;
+    background-color: transparent;
+    border: 0;
+}
+.navbuts2:after{
+    content: "";
+    position: absolute;
+    background-color: orangered;
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navbuts2:hover:after{
+    width: 100%;
+}
+.navbuts2:hover{
+    color:azure;
+}
+.navmenu2{
+    display: none;
+}
+.navmenu2open{
+    display: none;
+}
+.navmenu2close{
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    .navbuts{
+        position: relative;
+        bottom: 0.8vw;
+        font-family: 'Lobster', cursive;
+        font-size: 2.3vw;
+        margin-right: 2vw;
+        cursor: pointer;
+        text-shadow: 1.5px 1.5px black;
+        color: rgb(248, 227, 227);
+        background-color: transparent;
+        border: 0;
+        font-weight: 600;
+    }
+    .atcim{
+        width: 4vw;
+    }
+    .atcq{
+        width: 2.5vw;
+        height: 2.5vw;
+        font-size: 2vw;
+    }
+    .mtitle{
+        font-size: 3.2vw;
+        left: 10.5vw;
+    }
+    .mlogo{
+        width: 10%;
+    }
+    .searchinp{
+        height: 4vw;
+        font-size: medium;
+    }
+    .sb{
+        top: 1.3vw;
+    }
+    .sdets{
+        font-size: 3vw;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    .ham{
+        display: block;
+    }
+    .navbuts{
+        display: none;
+    }
+    .yr{
+        width: 10vw;
+        z-index: 10;
+    }
+    .mlogo{
+        width: 15%;
+        z-index: 10;
+    }
+    .mtitle{
+        font-size: 5vw;
+        left: 15vw;
+        top: 1.5vw;
+        z-index: 10;
+    }
+    .sbi{
+        width: 4vw;
+        position: absolute;
+        right: 2vw;
+        top: 1vw;
+
+    }
+    .searchinp{
+        height: 8vw;
+    }
+    .sdets{
+        font-size: 4vw;
+    }
+    .navmenu2open{
+        height: 80vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0vw;
+        z-index: 7;
+        background-color: rgb(172, 244, 172);
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-top: 0vw;
+        transition: margin-top 0.5s;
+    }
+    .navmenu2close{
+        height: 80vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0vw;
+        z-index: 7;
+        background-color: rgb(172, 244, 172);
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-top: -80vw;
+        transition: margin-top 0.5s;
+    }
+    .navmenu2{
+        height: 80vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0vw;
+        z-index: 7;
+        background-color: rgb(172, 244, 172);
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-top: -80vw;
+    }
+    /* .navmenu2{
+        display: none;
+    } */
+    .atcim{
+        width: 6vw;
+    }
+    .atcq{
+        font-size: 3vw;
+        width: 4vw;
+        height: 4vw;
+        right: 44%;
+    }
+    .ham2{
+        background-color: transparent;
+        border: 0;
+        z-index: 10;
+        position: absolute;
+        top: 1.2vw;
+        right: 0; 
+    }
+}
